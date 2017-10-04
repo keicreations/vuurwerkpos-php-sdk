@@ -2,7 +2,9 @@
   "name": "vuurwerkpos/php-sdk",
   "description": "Example code to connect with VuurwerkPOS",
   "type": "library",
+  "license": "MIT",
   "require": {
+    "php": ">=7.0",
     "guzzlehttp/guzzle": "^6.3",
     "doctrine/common": "^2.7"
   },
