@@ -1,0 +1,20 @@
+{
+  "name": "vuurwerkpos/php-sdk",
+  "description": "Example code to connect with VuurwerkPOS",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "doctrine/common": "^2.7"
+  },
+  "authors": [
+    {
+      "name": "Martijn Hartlief",
+      "email": "martijn@hcdesigns.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "VuurwerkPOS\\": ""
+    }
+  }
+}
